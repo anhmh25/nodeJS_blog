@@ -1,0 +1,30 @@
+{
+  "name": "newprj",
+  "version": "1.0.0",
+  "description": "a start project with nodeJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --inspect main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoanganhhhh25/nodeJS_blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodeJS_blog"
+  ],
+  "author": "hoanganhhhh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoanganhhhh25/nodeJS_blog/issues"
+  },
+  "homepage": "https://github.com/hoanganhhhh25/nodeJS_blog#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
